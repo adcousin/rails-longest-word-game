@@ -1,0 +1,38 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  display: flex;
+  margin: 3px;
+  width: 50px;
+  height: 2em;
+
+  font-family: 'Neucha', cursive;
+  font-size: 32px;
+  background-color: rgba(50, 100, 255, 1);
+  color: white;
+
+  border-radius: 4px;
+
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 3px 5px gray;
+}
+
+#typing-bar {
+  border-radius: 4px 0 0 4px;
+}
+
+#play-btn {
+  border-radius: 0 4px 4px 0;
+  border: 1px solid #ced4da;
+}
